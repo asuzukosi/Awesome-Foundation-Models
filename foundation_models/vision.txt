@@ -1,0 +1,3 @@
+Foundation vision models
+
+Domain specific or general, deployment strategy, operation, open source or closed, parameter count, performance evaluation

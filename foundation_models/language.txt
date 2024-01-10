@@ -1,0 +1,4 @@
+List of foundation language models
+
+
+Specific domain or general, opensource or closed, ownership, number of parameters, evaluation performance

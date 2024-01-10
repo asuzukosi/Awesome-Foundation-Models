@@ -1,0 +1,4 @@
+List of multi-modal foundation models:
+
+
+Split between domains or general, number of parameters, opensource or closed, ownership and evaluation
