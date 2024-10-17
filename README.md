@@ -4,25 +4,107 @@
 A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3) that can be adapted to a wide range of downstream applications. This term was [first popularized](https://crfm.stanford.edu) by the Stanford Institute for Human-Centered Artificial Intelligence. This repository maintains a curated list of foundation models for vision and language tasks. Research papers without code are not included.
 
 
-## Survey
-* [2023.10] [Foundational Models in Medical Imaging: A Comprehensive Survey and Future Vision](https://arxiv.org/pdf/2310.18689.pdf) (from SDSU)
-* [2023.09] [Multimodal Foundation Models: From Specialists to General-Purpose Assistants](https://arxiv.org/pdf/2309.10020.pdf) (from Microsoft)
-* [2023.08] [Towards Generalist Foundation Model for Radiology](https://arxiv.org/pdf/2308.02463.pdf) (from SJTU)
-* [2023.07] [Foundational Models Defining a New Era in Vision: A Survey and Outlook](https://arxiv.org/pdf/2307.13721.pdf) (from MBZ University of AI)
-* [2023.07] [Towards Generalist Biomedical AI](https://arxiv.org/pdf/2307.14334.pdf) (from Google)
-* [2023.07] [Foundational Models Defining a New Era in Vision: A Survey and Outlook](https://arxiv.org/pdf/2307.13721.pdf)
-* [2023.07] [A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models](https://arxiv.org/pdf/2307.12980.pdf) (from University of Oxford)
-* [2023.06] [Large Multimodal Models: Notes on CVPR 2023 Tutorial](https://arxiv.org/pdf/2306.14895.pdf) (from Chunyuan Li, Microsoft.)
-* [2023.06] [A Survey on Multimodal Large Language Models](https://arxiv.org/pdf/2306.13549.pdf)
-* [2023.04] [Vision-Language Models for Vision Tasks: A Survey](https://arxiv.org/pdf/2304.00685.pdf)
-* [2023.04] [Foundation Models for Generalist Medical Artificial Intelligence](https://www.nature.com/articles/s41586-023-05881-4)
-* [2023.03] [A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT](https://arxiv.org/pdf/2302.09419.pdf)
-* [2023.03] [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/pdf/2303.04226.pdf)
-* [2022.12] [ Vision-language pre-training: Basics, recent advances, and future trends](https://www.nowpublishers.com/article/Details/CGV-105)
-* [2022.07] [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258.pdf) (This survey first popularizes the concept of foundation model; from Standford)
+## Survey 
+### 2024
+* [Image Segmentation in Foundation Model Era: A Survey](https://arxiv.org/abs/2408.12957) (from Beijing Institute of Technology)
+* [Towards Vision-Language Geo-Foundation Model: A Survey](https://arxiv.org/pdf/2406.09385) (from Nanyang Technological University)
+* [An Introduction to Vision-Language Modeling](https://arxiv.org/abs/2405.17247) (from Meta)
+* [The Evolution of Multimodal Model Architectures](https://arxiv.org/pdf/2405.17927) (from Purdue University)
+* [Efficient Multimodal Large Language Models: A Survey](https://arxiv.org/pdf/2405.10739) (from Tencent)
+* [Foundation Models for Video Understanding: A Survey](https://arxiv.org/abs/2405.03770) (from Aalborg University)
+* [Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond](https://arxiv.org/abs/2405.03520) (from GigaAI)
+* [Prospective Role of Foundation Models in Advancing Autonomous Vehicles](https://arxiv.org/pdf/2405.02288) (from Tongji University)
+* [Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey](https://arxiv.org/pdf/2403.14608) (from Northeastern University)
+* [A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models](https://arxiv.org/abs/2402.17177v2) (from Lehigh)
+* [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116) (from CUHK)
+* [The Uncanny Valley: A Comprehensive Analysis of Diffusion Models](https://arxiv.org/pdf/2402.13369.pdf) (from Mila)
+* [Real-World Robot Applications of Foundation Models: A Review](https://arxiv.org/pdf/2402.05741.pdf) (from University of Tokyo)
+* [From GPT-4 to Gemini and Beyond: Assessing the Landscape of MLLMs on Generalizability, Trustworthiness and Causality through Four Modalities](https://arxiv.org/pdf/2401.15071.pdf) (from Shanghai AI Lab)
+* [Towards the Unification of Generative and Discriminative Visual Foundation Model: A Survey](https://arxiv.org/pdf/2312.10163) (from JHU)
+
+### Before 2024
+* [Foundational Models in Medical Imaging: A Comprehensive Survey and Future Vision](https://arxiv.org/pdf/2310.18689.pdf) (from SDSU)
+* [Multimodal Foundation Models: From Specialists to General-Purpose Assistants](https://arxiv.org/pdf/2309.10020.pdf) (from Microsoft)
+* [Towards Generalist Foundation Model for Radiology](https://arxiv.org/pdf/2308.02463.pdf) (from SJTU)
+* [Foundational Models Defining a New Era in Vision: A Survey and Outlook](https://arxiv.org/pdf/2307.13721.pdf) (from MBZ University of AI)
+* [Towards Generalist Biomedical AI](https://arxiv.org/pdf/2307.14334.pdf) (from Google)
+* [A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models](https://arxiv.org/pdf/2307.12980.pdf) (from Oxford)
+* [Large Multimodal Models: Notes on CVPR 2023 Tutorial](https://arxiv.org/pdf/2306.14895.pdf) (from Chunyuan Li, Microsoft)
+* [A Survey on Multimodal Large Language Models](https://arxiv.org/pdf/2306.13549.pdf) (from USTC and Tencent)
+* [Vision-Language Models for Vision Tasks: A Survey](https://arxiv.org/pdf/2304.00685.pdf) (from Nanyang Technological University)
+* [Foundation Models for Generalist Medical Artificial Intelligence](https://www.nature.com/articles/s41586-023-05881-4) (from Stanford)
+* [A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT](https://arxiv.org/pdf/2302.09419.pdf)
+* [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/pdf/2303.04226.pdf)
+* [Vision-language pre-training: Basics, recent advances, and future trends](https://www.nowpublishers.com/article/Details/CGV-105)
+* [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258.pdf) (This survey first popularizes the concept of foundation model; from Standford)
 
 ## Papers by Date
+### 2024
+
+* [10/10] [Scaling Up Your Kernels: Large Kernel Design in ConvNets towards Universal Representations](https://arxiv.org/abs/2410.08049) (from CUHK) [![Star](https://img.shields.io/github/stars/AILab-CVC/UniRepLKNet.svg?style=social&label=Star)](https://github.com/AILab-CVC/UniRepLKNet)
+* [10/04] [Movie Gen: A Cast of Media Foundation Models](https://ai.meta.com/static-resource/movie-gen-research-paper) (from Meta)
+* [10/02] [Were RNNs All We Needed?](https://arxiv.org/abs/2410.01201) (from Mila)
+* [09/30] [MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning](https://arxiv.org/abs/2409.20566) (from Apple)
+* [09/27] [Emu3: Next-Token Prediction is All You Need](https://arxiv.org/abs/2409.18869) (from BAAI) [![Star](https://img.shields.io/github/stars/baaivision/Emu3.svg?style=social&label=Star)](https://github.com/baaivision/Emu3)
+* [09/25] [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Multimodal Models](https://arxiv.org/abs/2409.17146) (from Allen AI)
+* [09/18] [Qwen2-VL: Enhancing Vision-Language Model’s Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191) (from Alibaba) [![Star](https://img.shields.io/github/stars/QwenLM/Qwen2-VL.svg?style=social&label=Star)](https://github.com/QwenLM/Qwen2-VL)
+* [09/18] [Moshi: a speech-text foundation model for real-time dialogue](https://kyutai.org/Moshi.pdf) (from Kyutai) [![Star](https://img.shields.io/github/stars/kyutai-labs/moshi.svg?style=social&label=Star)](https://github.com/kyutai-labs/moshi)
+* [08/27] [Diffusion Models Are Real-Time Game Engines](https://arxiv.org/abs/2408.14837) (from Google)
+* [08/22] [Sapiens: Foundation for Human Vision Models](https://arxiv.org/abs/2408.12569) (from Meta) [![Star](https://img.shields.io/github/stars/facebookresearch/sapiens.svg?style=social&label=Star)](https://github.com/facebookresearch/sapiens)
+* [08/14] [Imagen 3](https://arxiv.org/abs/2408.07009) (from Google Deepmind)
+* [07/31] [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) (from Meta)
+* [07/29] [SAM 2: Segment Anything in Images and Videos](https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/453323338_287900751050452_6064535069828837026_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=TnvI-AaGawoQ7kNvgEnn-kA&_nc_ht=scontent-iad3-1.xx&oh=00_AYC137o55X1E1VpPuz_T6G2uGE_GBeDdvZSOb1umrbAAxA&oe=66AE2179) (from Meta) [![Star](https://img.shields.io/github/stars/facebookresearch/segment-anything-2.svg?style=social&label=Star)](https://github.com/facebookresearch/segment-anything-2)
+* [07/24] [PartGLEE: A Foundation Model for Recognizing and Parsing Any Objects](https://arxiv.org/abs/2407.16696) (from HUST and ByteDance)
+* [07/17] [EVE: Unveiling Encoder-Free Vision-Language Models](https://arxiv.org/abs/2406.11832) (from BAAI) [![Star](https://img.shields.io/github/stars/baaivision/EVE.svg?style=social&label=Star)](https://github.com/baaivision/EVE)
+* [07/12] [Transformer Layers as Painters](https://arxiv.org/abs/2407.09298) (from Sakana AI)
+* [06/24] [Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs](https://arxiv.org/abs/2406.16860) (from NYU) [![Star](https://img.shields.io/github/stars/cambrian-mllm/cambrian.svg?style=social&label=Star)](https://github.com/cambrian-mllm/cambrian)
+* [06/13] [4M-21: An Any-to-Any Vision Model for Tens of Tasks and Modalities](https://arxiv.org/abs/2406.09406) (from EPFL and Apple) [![Star](https://img.shields.io/github/stars/apple/ml-4m.svg?style=social&label=Star)](https://github.com/apple/ml-4m)
+* [06/10] [Merlin: A Vision Language Foundation Model for 3D Computed Tomography](https://arxiv.org/abs/2406.06512) (from Stanford. Code will be available.)
+* [06/06] [Vision-LSTM: xLSTM as Generic Vision Backbone](https://arxiv.org/pdf/2406.04303) (from LSTM authors) [![Star](https://img.shields.io/github/stars/NX-AI/vision-lstm.svg?style=social&label=Star)](https://github.com/NX-AI/vision-lstm)
+* [05/31] [MeshXL: Neural Coordinate Field for Generative 3D Foundation Models](https://arxiv.org/abs/2405.20853) (from Fudan) [![Star](https://img.shields.io/github/stars/OpenMeshLab/MeshXL.svg?style=social&label=Star)](https://github.com/OpenMeshLab/MeshXL)
+* [05/22] [Attention as an RNN](https://arxiv.org/pdf/2405.13956) (from Mila & Borealis AI)
+* [05/22] [GigaPath: A whole-slide foundation model for digital pathology from real-world data](https://www.nature.com/articles/s41586-024-07441-w) (from Nature) [![Star](https://img.shields.io/github/stars/prov-gigapath/prov-gigapath.svg?style=social&label=Star)](https://github.com/prov-gigapath/prov-gigapath)
+* [05/21] [BiomedParse: a biomedical foundation model for biomedical image parsing](https://arxiv.org/abs/2405.12971) (from Microsoft)
+* [05/20] [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) (from UC Berkeley) [![Star](https://img.shields.io/github/stars/octo-models/octo.svg?style=social&label=Star)](https://github.com/octo-models/octo)
+* [05/17] [Observational Scaling Laws and the Predictability of Language Model Performance](https://arxiv.org/abs/2405.10938) (fro Standford)
+* [05/14] [Understanding the performance gap between online and offline alignment algorithms](https://arxiv.org/pdf/2405.08448) (from Google)
+* [05/09] [Lumina-T2X: Transforming Text into Any Modality, Resolution, and Duration via Flow-based Large Diffusion Transformers](https://arxiv.org/abs/2405.05945) (from Shanghai AI Lab) [![Star](https://img.shields.io/github/stars/Alpha-VLLM/Lumina-T2X.svg?style=social&label=Star)](https://github.com/Alpha-VLLM/Lumina-T2X)
+* [05/08] [You Only Cache Once: Decoder-Decoder Architectures for Language Models](https://arxiv.org/abs/2405.05254) [![Star](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social&label=Star)](https://github.com/microsoft/unilm)
+* [05/06] [Advancing Multimodal Medical Capabilities of Gemini](https://arxiv.org/abs/2405.03162) (from Google)
+* [05/07] [xLSTM: Extended Long Short-Term Memory](https://arxiv.org/abs/2405.04517) (from Sepp Hochreiter, the author of LSTM.)
+* [05/03] [Vibe-Eval: A hard evaluation suite for measuring progress of multimodal language models](https://arxiv.org/abs/2405.02287) [![Star](https://img.shields.io/github/stars/reka-ai/reka-vibe-eval.svg?style=social&label=Star)](https://github.com/reka-ai/reka-vibe-eval)
+* [04/30] [KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756) (Promising alternatives of MLPs. from MIT) [![Star](https://img.shields.io/github/stars/KindXiaoming/pykan.svg?style=social&label=Star)](https://github.com/KindXiaoming/pykan)
+* [04/26] [How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites](https://arxiv.org/abs/2404.16821) (InternVL 1.5. from Shanghai AI Lab) [![Star](https://img.shields.io/github/stars/OpenGVLab/InternVL.svg?style=social&label=Star)](https://github.com/OpenGVLab/InternVL)
+* [04/14] [TransformerFAM: Feedback attention is working memory](https://arxiv.org/abs/2404.09173) (from Google. Efficient attention.)
+* [04/10] [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143) (from Google)
+* [04/02] [Octopus v2: On-device language model for super agent](https://arxiv.org/abs/2404.01744) (from Stanford) 
+* [04/02] [Mixture-of-Depths: Dynamically allocating compute in transformer-based language models](https://arxiv.org/abs/2404.02258) (from Google)
+* [03/22] [InternVideo2: Scaling Video Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377) (from Shanghai AI Lab) [![Star](https://img.shields.io/github/stars/OpenGVLab/InternVideo2.svg?style=social&label=Star)](https://github.com/OpenGVLab/InternVideo2)
+* [03/18] [Arc2Face: A Foundation Model of Human Faces](https://arxiv.org/abs/2403.11641) (from Imperial College London) [![Star](https://img.shields.io/github/stars/foivospar/Arc2Face.svg?style=social&label=Star)](https://github.com/foivospar/Arc2Face)
+* [03/14] [MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training](https://arxiv.org/pdf/2403.09611.pdf) (30B parameters. from Apple)
+* [03/09] [uniGradICON: A Foundation Model for Medical Image Registration](https://arxiv.org/abs/2403.05780) (from UNC-Chapel Hill) [![Star](https://img.shields.io/github/stars/uncbiag/uniGradICON.svg?style=social&label=Star)](https://github.com/uncbiag/uniGradICON)
+* [03/05] [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206) (Stable Diffusion 3. from Stability AI)
+* [03/01] [Learning and Leveraging World Models in Visual Representation Learning](https://arxiv.org/abs/2403.00504) (from Meta)
+* [03/01] [VisionLLaMA: A Unified LLaMA Interface for Vision Tasks](https://arxiv.org/abs/2403.00522) (from Meituan) [![Star](https://img.shields.io/github/stars/Meituan-AutoML/VisionLLaMA.svg?style=social&label=Star)](https://github.com/Meituan-AutoML/VisionLLaMA)
+* [02/28] [CLLMs: Consistency Large Language Models](https://arxiv.org/abs/2403.00835) (from SJTU) [![Star](https://img.shields.io/github/stars/hao-ai-lab/Consistency_LLM.svg?style=social&label=Star)](https://github.com/hao-ai-lab/Consistency_LLM)
+* [02/27] [Transparent Image Layer Diffusion using Latent Transparency](https://arxiv.org/abs/2402.17113v2) (from Standford) [![Star](https://img.shields.io/github/stars/layerdiffusion/LayerDiffuse.svg?style=social&label=Star)](https://github.com/layerdiffusion/LayerDiffuse)
+* [02/22] [MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases](https://arxiv.org/abs/2402.14905) (from Meta)
+* [02/21] [Beyond A∗: Better Planning with Transformers via Search Dynamics Bootstrapping](https://arxiv.org/abs/2402.14083) (from Meta)
+* [02/20] [Neural Network Diffusion](https://arxiv.org/abs/2402.13144) (Generating network parameters via diffusion models. from NUS) [![Star](https://img.shields.io/github/stars/NUS-HPC-AI-Lab/Neural-Network-Diffusion.svg?style=social&label=Star)](https://github.com/NUS-HPC-AI-Lab/Neural-Network-Diffusion)
+* [02/20] [VideoPrism: A Foundational Visual Encoder for Video Understanding](https://arxiv.org/abs/2402.13217) (from Google)
+* [02/19] [FiT: Flexible Vision Transformer for Diffusion Model](https://arxiv.org/abs/2402.12376) (from Shanghai AI Lab) [![Star](https://img.shields.io/github/stars/whlzy/FiT.svg?style=social&label=Star)](https://github.com/whlzy/FiT)
+* [02/06] [MobileVLM V2: Faster and Stronger Baseline for Vision Language Model](https://arxiv.org/abs/2402.03766) (from Meituan) [![Star](https://img.shields.io/github/stars/Meituan-AutoML/MobileVLM.svg?style=social&label=Star)](https://github.com/Meituan-AutoML/MobileVLM)
+* [01/30] [YOLO-World: Real-Time Open-Vocabulary Object Detection](https://arxiv.org/pdf/2401.17270.pdf) (from Tencent and HUST) [![Star](https://img.shields.io/github/stars/AILab-CVC/YOLO-World.svg?style=social&label=Star)](https://github.com/AILab-CVC/YOLO-World)
+* [01/23] [Lumiere: A Space-Time Diffusion Model for Video Generation](https://arxiv.org/abs/2401.12945) (from Google)
+* [01/22] [CheXagent: Towards a Foundation Model for Chest X-Ray Interpretation](https://arxiv.org/pdf/2401.12208.pdf) (from Stanford) [![Star](https://img.shields.io/github/stars/Stanford-AIMI/CheXagent.svg?style=social&label=Star)](https://github.com/Stanford-AIMI/CheXagent)
+* [01/19] [Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data](https://arxiv.org/pdf/2401.10891.pdf) (from TikTok) [![Star](https://img.shields.io/github/stars/LiheYoung/Depth-Anything.svg?style=social&label=Star)](https://github.com/LiheYoung/Depth-Anything)
+* [01/16] [SiT: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers](https://arxiv.org/abs/2401.08740) (from NYU) [![Star](https://img.shields.io/github/stars/willisma/SiT.svg?style=social&label=Star)](https://github.com/willisma/SiT)
+* [01/15] [InstantID: Zero-shot Identity-Preserving Generation in Seconds](https://arxiv.org/abs/2401.07519v2) (from Xiaohongshu) [![Star](https://img.shields.io/github/stars/InstantID/InstantID.svg?style=social&label=Star)](https://github.com/InstantID/InstantID)
+
 ### 2023
+* [BioCLIP: A Vision Foundation Model for the Tree of Life](https://arxiv.org/abs/2311.18803) (CVPR 2024 best student paper)
+* [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) (Mamba appears to outperform similarly-sized Transformers while scaling linearly with sequence length. from CMU)
+* [FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects](https://arxiv.org/abs/2312.08344) (from NVIDIA)
 * [Tracking Everything Everywhere All at Once](https://arxiv.org/abs/2306.05422) (from Cornell, ICCV 2023 best student paper)
 * [Foundation Models for Generalist Geospatial Artificial Intelligence](https://arxiv.org/pdf/2310.18660.pdf) (from IBM and NASA) 
 * [LLaMA 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/pdf/2307.09288.pdf) (from Meta)
@@ -37,7 +119,8 @@ using only image prediction as a training criterion; from AWS)
 * [LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf) (65B parameters, from Meta)
 * [PaLM 2 Technical Report](https://ai.google/static/documents/palm2techreport.pdf) (from Google)
 * [IMAGEBIND: One Embedding Space To Bind Them All](https://arxiv.org/pdf/2305.05665.pdf) (from Meta)
-* [SEEM: Segment Everything Everywhere All at Once](https://arxiv.org/pdf/2304.06718.pdf) (from University of Wisconsin-Madison, HKUST, and Microsoft)
+* [Visual Instruction Tuning](https://arxiv.org/pdf/2304.08485.pdf) (LLaVA, from U of Wisconsin-Madison and Microsoft) [![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)](https://github.com/haotian-liu/LLaVA)
+* [SEEM: Segment Everything Everywhere All at Once](https://arxiv.org/pdf/2304.06718.pdf) (from University of Wisconsin-Madison, HKUST, and Microsoft) [![Star](https://img.shields.io/github/stars/UX-Decoder/Segment-Everything-Everywhere-All-At-Once.svg?style=social&label=Star)](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once)
 * [SAM: Segment Anything](https://github.com/facebookresearch/segment-anything) (the first foundation model for image segmentation; from Meta) [![Star](https://img.shields.io/github/stars/facebookresearch/segment-anything.svg?style=social&label=Star)](https://github.com/facebookresearch/segment-anything)
 * [SegGPT: Segmenting Everything In Context](https://arxiv.org/pdf/2304.03284.pdf) (from BAAI, ZJU, and PKU) [![Star](https://img.shields.io/github/stars/baaivision/Painter.svg?style=social&label=Star)](https://github.com/baaivision/Painter)
 * [Images Speak in Images: A Generalist Painter for In-Context Visual Learning](https://arxiv.org/pdf/2212.02499.pdf) (from BAAI, ZJU, and PKU)
@@ -128,9 +211,32 @@ using only image prediction as a training criterion; from AWS)
 * [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) (NeurIPS, from Google and UoT)
 
 ## Papers by Topic
+
+### Large Language/Multimodal Models 
+* [LLaVA: Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) (from University of Wisconsin-Madison) [![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)](https://github.com/haotian-liu/LLaVA)
+* [MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592) (from KAUST) [![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star)](https://github.com/Vision-CAIR/MiniGPT-4)
+* [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf) (from OpenAI)
+* [GPT-3: Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf) (175B parameters; permits in-context learning compared with GPT-2; from OpenAI)
+* [GPT-2: Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) (1.5B parameters; from OpenAI)
+* [GPT: Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) (from OpenAI)
+* [LLaMA 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/pdf/2307.09288.pdf) (from Meta)
+* [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971v1.pdf) (models ranging from 7B to 65B parameters; from Meta)
+* [T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683) (from Google) [![Star](https://img.shields.io/github/stars/google-research/text-to-text-transfer-transformer.svg?style=social&label=Star)](https://github.com/google-research/text-to-text-transfer-transformer)
+
+### Linear Attention
+* [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) [![Star](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social&label=Star)](https://github.com/Dao-AILab/flash-attention)
+* [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) [![Star](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social&label=Star)](https://github.com/Dao-AILab/flash-attention)
+
+
+### Large Benchmarks
+* [MMT-Bench: A Comprehensive Multimodal Benchmark for Evaluating Large Vision-Language Models Towards Multitask AGI](https://arxiv.org/abs/2404.16006) (from Shanghai AI Lab, 2024)
+* [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) (multimodal benchmark. from University of Pennsylvania, 2024)
+* [CAD-Estate: Large-scale CAD Model Annotation in RGB Videos](https://arxiv.org/abs/2306.09011) (RGB videos with CAD annotation. from Google 2023)
+* [ImageNet: A Large-Scale Hierarchical Image Database](https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf) (vision benchmark. from Stanford, 2009)
+
 ### Vision-Language Pretraining
 * [FLIP: Scaling Language-Image Pre-training via Masking](https://arxiv.org/abs/2212.00794) (from Meta)
-* [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/pdf/2301.12597.pdf) (proposes a generic and efficient VLP strategy based on off-the-shelf frozen vision and language models. from Saleforce Research)
+* [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/pdf/2301.12597.pdf) (proposes a generic and efficient VLP strategy based on off-the-shelf frozen vision and language models. from Salesforce Research)
 * [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://proceedings.mlr.press/v162/li22n/li22n.pdf) (from Salesforce Research)
 * [SLIP: Self-supervision meets Language-Image Pre-training](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136860514.pdf) (ECCV, from UC Berkeley and Meta)
 * [GLIP: Grounded Language-Image Pre-training](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Grounded_Language-Image_Pre-Training_CVPR_2022_paper.pdf) (CVPR, from UCLA and Microsoft)
@@ -138,26 +244,29 @@ using only image prediction as a training criterion; from AWS)
 * [RegionCLIP: Region-Based Language-Image Pretraining](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhong_RegionCLIP_Region-Based_Language-Image_Pretraining_CVPR_2022_paper.pdf)
 * [CLIP: Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/pdf/2103.00020.pdf) (from OpenAI)
 
-### Perception Tasks: Segmentation and Detection
+### Perception Tasks: Detection, Segmentation, and Pose Estimation
+* [SAM 2: Segment Anything in Images and Videos](https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/453323338_287900751050452_6064535069828837026_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=TnvI-AaGawoQ7kNvgEnn-kA&_nc_ht=scontent-iad3-1.xx&oh=00_AYC137o55X1E1VpPuz_T6G2uGE_GBeDdvZSOb1umrbAAxA&oe=66AE2179) (from Meta) [![Star](https://img.shields.io/github/stars/facebookresearch/segment-anything-2.svg?style=social&label=Star)](https://github.com/facebookresearch/segment-anything-2)
+* [FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects](https://arxiv.org/abs/2312.08344) (from NVIDIA)
 * [SEEM: Segment Everything Everywhere All at Once](https://arxiv.org/pdf/2304.06718.pdf) (from University of Wisconsin-Madison, HKUST, and Microsoft)
 * [SAM: Segment Anything](https://github.com/facebookresearch/segment-anything) (the first foundation model for image segmentation; from Meta) [![Star](https://img.shields.io/github/stars/facebookresearch/segment-anything.svg?style=social&label=Star)](https://github.com/facebookresearch/segment-anything)
 * [SegGPT: Segmenting Everything In Context](https://arxiv.org/pdf/2304.03284.pdf) (from BAAI, ZJU, and PKU) [![Star](https://img.shields.io/github/stars/baaivision/Painter.svg?style=social&label=Star)](https://github.com/baaivision/Painter)
-
-### Large Language Models
-* [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf) (from OpenAI)
-* [GPT-3: Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf) (175B parameters; permits in-context learning compared with GPT-2; from OpenAI)
-* [GPT-2: Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) (1.5B parameters; from OpenAI)
-* [GPT: Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) (from OpenAI)
 
 ### Training Efficiency
 * [Green AI](https://dl.acm.org/doi/pdf/10.1145/3381831) (introduces the concept of Red AI vs Green AI)
 * [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/pdf/1803.03635.pdf) (the lottery ticket hypothesis, from MIT)
 
-* Other Challenges and Opportunities: Trust, reliability, safe use, interpretability, self-improvement, adaptation, augmentation, and understanding/predicting capability.
-
-### Towards AGI
+### Towards Artificial General Intelligence (AGI)
 * [Towards AGI in Computer Vision: Lessons Learned from GPT and Large Language Models](https://arxiv.org/pdf/2306.08641.pdf) (from Huawei)
 
-## Links to Similar Awesome Repositories
-* [Awesome-CV-Foundational-Models](https://github.com/awaisrauf/Awesome-CV-Foundational-Models) (maintained by Muhammad Awais) [![Star](https://img.shields.io/github/stars/awaisrauf/Awesome-CV-Foundational-Models.svg?style=social&label=Star)](https://github.com/awaisrauf/Awesome-CV-Foundational-Models)
-* [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) (maintained by Jianing Qiu) [![Star](https://img.shields.io/github/stars/Jianing-Qiu/Awesome-Healthcare-Foundation-Models.svg?style=social&label=Star)](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models)
+### AI Safety and Responsibility
+* [Bounding the probability of harm from an AI to create a guardrail](https://yoshuabengio.org/2024/08/29/bounding-the-probability-of-harm-from-an-ai-to-create-a-guardrail/) (blog from Yoshua Bengio)
+* [Managing Extreme AI Risks amid Rapid Progress](https://www.science.org/doi/10.1126/science.adn0117) (from Science, May 2024)
+
+## Related Awesome Repositories
+* [Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) [![Star](https://img.shields.io/github/stars/diff-usion/Awesome-Diffusion-Models.svg?style=social&label=Star)](https://github.com/diff-usion/Awesome-Diffusion-Models)
+* [Awesome-Video-Diffusion-Models](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models?tab=readme-ov-file) [![Star](https://img.shields.io/github/stars/ChenHsing/Awesome-Video-Diffusion-Models.svg?style=social&label=Star)](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models)
+* [Awesome-Diffusion-Model-Based-Image-Editing-Methods](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) [![Star](https://img.shields.io/github/stars/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods.svg?style=social&label=Star)](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods)
+* [Awesome-CV-Foundational-Models](https://github.com/awaisrauf/Awesome-CV-Foundational-Models) [![Star](https://img.shields.io/github/stars/awaisrauf/Awesome-CV-Foundational-Models.svg?style=social&label=Star)](https://github.com/awaisrauf/Awesome-CV-Foundational-Models)
+* [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) [![Star](https://img.shields.io/github/stars/Jianing-Qiu/Awesome-Healthcare-Foundation-Models.svg?style=social&label=Star)](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models)
+* [awesome-large-multimodal-agents](https://github.com/jun0wanan/awesome-large-multimodal-agents) [![Star](https://img.shields.io/github/stars/jun0wanan/awesome-large-multimodal-agents.svg?style=social&label=Star)](https://github.com/jun0wanan/awesome-large-multimodal-agents)
+* [Computer Vision in the Wild (CVinW)](https://github.com/Computer-Vision-in-the-Wild/CVinW_Readings) [![Star](https://img.shields.io/github/stars/Computer-Vision-in-the-Wild/CVinW_Readings.svg?style=social&label=Star)](https://github.com/Computer-Vision-in-the-Wild/CVinW_Readings)
